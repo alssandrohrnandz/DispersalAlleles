@@ -1,0 +1,8 @@
+genotypename:	 v52.2_1240K_public.geno
+snpname:	 v52.2_1240K_public.snp
+indivname:	 v52.2_1240K_public.ind
+outputformat:	PED
+genotypeoutname:	1240k.ped
+snpoutname:	1240k.map
+indivoutname:	1240k.pedind
+familynames:	NO

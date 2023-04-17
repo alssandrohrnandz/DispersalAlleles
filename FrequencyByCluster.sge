@@ -1,0 +1,27 @@
+#!/bin/bash
+# Use current working directory
+#$ -cwd
+#
+# Join stdout and stderr
+#$ -j y
+#
+# Run job through bash shell 
+#$ -S /bin/bash
+#
+#You can edit the scriptsince this line
+#
+# Your job name
+#$ -N plink_frq
+#
+# Send an email after the job has finished
+#$ -m e
+#$ -M alessandro@ciencias.unam.mx
+#
+# If modules are needed, source modules environment (Do not delete the next line):
+. /etc/profile.d/modules.sh
+#
+# Add any modules you might require:
+module load plink2/1.90beta3
+#
+# Write your commands in the next line  
+plink --bfile data --alleleACGT --freq --out FrecuencyClusters --within pop.phe --reference-allele ID_Anc_snps.txt

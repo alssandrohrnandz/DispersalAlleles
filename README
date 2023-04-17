@@ -1,0 +1,13 @@
+DavidReichAllenLinks.txt #Links of all data used in this work. NOTE. v52.2 is current version at 15th September 2022. 
+
+par.PACKEDPED.PED #Commands used to conver GENO format to Plink format.
+
+plinkToVCF.sge #Bash file
+
+v52.2_1240K_public.anno #Files downloaded from DavidReichLabLinks.txt
+
+CleandedDataSet.csv #File with all individuals in a range of 30,-23 and 75,63
+
+ObtainIndividualsFromBaseData.py #Script from Python to Obtain Individuals from v52.2_1240k_public.anno
+
+
